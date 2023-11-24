@@ -44,3 +44,10 @@ almacenamiento.
 de iddle y la velocidad de transferencia.
 * <b>iptraf:</b> Intercepta paquetes en la red y muestra información sobre el tráfico.
 * <b>bandwidthd:</b> una herramienta específica de monitorización del ancho de banda
+* <b>netstat:</b> Muestra las conexiones activas de una computadora, tanto entrantes como
+salientes.
+    - p: Muestra el proceso y el programa asociado con cada conexión o puerto.
+    - l: Muestra solo las conexiones que están en estado de "escucha" (listening), es decir, los servicios que están esperando conexiones entrantes.
+    - u: Muestra las conexiones UDP.
+    - n: Muestra las direcciones IP y números de puerto en formato numérico en lugar de resolver los nombres de host y servicios.
+    - t: Muestra las conexiones TCP.
