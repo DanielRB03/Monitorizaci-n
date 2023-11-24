@@ -23,24 +23,24 @@ capacidad de desplazarse y filtrar procesos de manera más intuitiva.
 
 ### MEMORIA, ESPACIO Y RENDIMIENTO DEL DISCO
 
-* free: Muestra la cantidad de memoria libre y utilizada en el sistema.
+* <b>free:</b> Muestra la cantidad de memoria libre y utilizada en el sistema.
     - free -s 3 → da información de la memoria cada 3 segundos
     - free -c 3 → da info 3 veces
-* df: Muestra el espacio utilizado y disponible en los sistemas de archivos montados.
+* <b>df:</b> Muestra el espacio utilizado y disponible en los sistemas de archivos montados.
     - df -h → muestra lo que está montado y su capacidad
     - df -hT → muestra además el sistema de archivos
-* du: Muestra el espacio ocupado por un fichero o directorio.
+* <b>du:</b> Muestra el espacio ocupado por un fichero o directorio.
     - du -h → Muestra el uso del espacio en formato legible para el usuario
-* iostat: Se utiliza para rastrear los problemas de rendimiento de los dispositivos de
+* <b>iostat:</b> Se utiliza para rastrear los problemas de rendimiento de los dispositivos de
 almacenamiento.
 
 ### TRÁFICO DE LA RED
 
-* tcpdump: Analiza el tráfico que circula por la red.
+* <b>tcpdump:</b> Analiza el tráfico que circula por la red.
     - tcpdump -i “interfaz” → para ver el tráfico de una tarjeta de red específica.
     - tcpdump -n → muestra las ips.
     - tcpdump net “red” → para ver el tráfico de esa red.
-* tcptrack: Nos muestra las conexiones establecidas, su origen, destino, estado, el tiempo
+* <b>tcptrack:</b> Nos muestra las conexiones establecidas, su origen, destino, estado, el tiempo
 de iddle y la velocidad de transferencia.
-* iptraf: Intercepta paquetes en la red y muestra información sobre el tráfico.
-* bandwidthd: una herramienta específica de monitorización del ancho de banda
+* <b>iptraf:</b> Intercepta paquetes en la red y muestra información sobre el tráfico.
+* <b>bandwidthd:</b> una herramienta específica de monitorización del ancho de banda
